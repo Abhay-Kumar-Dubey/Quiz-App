@@ -28,6 +28,8 @@ class Homepage extends StatelessWidget {
             width: MediaQuery.of(context).size.width,
             height: 2200,
             child: Stack(children: [
+              //---------Image and cubical chapter widgets used in homeScreen
+              //Used hard coded chapters as no chapter API was given.
               Positioned(
                 top: 0,
                 left: 0,

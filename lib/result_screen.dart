@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:lottie/lottie.dart';
 import 'package:quiz_app/bloc/quiz_screen_bloc.dart';
 import 'package:quiz_app/ui_assets/result_ui.dart';
 
@@ -68,11 +69,21 @@ class ResultScreen extends StatelessWidget {
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Container(
-                            width: 150,
-                            height: 150,
-                            child: RadialProgressAnimation(
-                                progress: progress, color: Colors.red),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Container(
+                                width: 150,
+                                height: 150,
+                                child: RadialProgressAnimation(
+                                    progress: progress, color: Colors.red),
+                              ),
+                              progress > 0.5
+                                  ? Lottie.asset('lib/assets/gold.json',
+                                      width: 150)
+                                  : Lottie.asset('lib/assets/Bronze.json',
+                                      width: 150)
+                            ],
                           )
                         ],
                       ),

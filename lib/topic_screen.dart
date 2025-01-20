@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:quiz_app/ui_assets/cubical_boxes.dart';
 
+// Page made for Topic choice depending on chapters
+// Topics are hard coded to make the app look better as only single topic API was given
+
 class TopicScreen extends StatelessWidget {
   const TopicScreen({super.key});
 
@@ -22,6 +25,7 @@ class TopicScreen extends StatelessWidget {
           width: MediaQuery.of(context).size.width,
           height: 1000,
           child: Stack(children: [
+            // Similar cubes and images used as in home Screen for Topic UI
             Positioned(
               top: 0,
               left: 0,
