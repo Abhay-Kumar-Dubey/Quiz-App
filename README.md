@@ -1,16 +1,67 @@
-# quiz_app
+# 📚 Quiz App
 
-A new Flutter project.
+## 📝 Overview
+This **Quiz App** is a Flutter-based application designed to deliver an interactive and user-friendly quiz experience. Built with **Bloc** for state management, the app provides a seamless and efficient flow of data and UI updates.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- **State Management**: Powered by **Bloc** for clean and scalable state management.
+- **User-Friendly UI**: Simple, intuitive, and responsive interface for users.
+- **Score and Percentage**: At the end of the quiz, displays the total score along with the percentage of marks scored using a **circular progress bar**.
+- **Quiz Summary**:
+  - Highlights the selected answers by the user.
+  - Displays the correct answers.
+  - Provides detailed explanations for correct answers fetched from an **API**.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📷 Screenshots
+
+_Add screenshots here for visual representation:_
+
+1. **Home Screen**  
+   <img src="Screenshots/HomeScreen.png" alt="Home Screen" width="600">
+
+
+2. **Question Screen**  
+   <img src="Screenshots/QuizScreen.png" alt="Quiz Screen" width="600">
+
+
+3. **Score and Summary**  
+  <img src="Screenshots/ResultScreen.png" alt="Result Screen" width="600">
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK installed.
+- Basic knowledge of Flutter development.
+
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Abhay-Kumar-Dubey/quiz-app.git
+2. Navigate to the project directory:
+   ```bash
+    cd quiz-app
+3. Get the dependencies:
+   ```bash
+    flutter pub get
+4. Run the app:
+   ```bash
+    flutter run
+## 🛠️ Tech Stack
+
+*  Flutter: Frontend framework.
+*  Dart: Programming language.
+*  Bloc: State management.
+*  API Integration: Fetches quiz data and explanations dynamically.
+
+## 🌟 Highlights
+
+### Circular Progress Bar: Displays the percentage of marks scored.
+### Quiz Summary: Gives users detailed feedback on their performance.
+### Smooth State Management: Ensures efficient UI updates without glitches.
