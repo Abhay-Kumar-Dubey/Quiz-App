@@ -21,15 +21,15 @@ This **Quiz App** is a Flutter-based application designed to deliver an interact
 
 
 1. **Home Screen**  
-   <img src="Screenshots/HomeScreen.png" alt="Home Screen" width="300">
+   <img src="ScreenShots/HomeScreen.png" alt="Home Screen" width="300">
 
 
 2. **Question Screen**  
-   <img src="Screenshots/QuizScreen.png" alt="Quiz Screen" width="300">
+   <img src="ScreenShots/QuizScreen.png" alt="Quiz Screen" width="300">
 
 
 3. **Score and Summary**  
-  <img src="Screenshots/ResultScreen.png" alt="Result Screen" width="300">
+  <img src="ScreenShots/ResultScreen.png" alt="Result Screen" width="300">
 
 ---
 
