@@ -27,9 +27,16 @@ This **Quiz App** is a Flutter-based application designed to deliver an interact
 2. **Question Screen**  
    <img src="ScreenShots/QuizScreen.png" alt="Quiz Screen" width="300">
 
+   
+3. **Submit Screen**  
+   <img src="ScreenShots/SubmitScreen.png" alt="Quiz Screen" width="300">
 
-3. **Score and Summary**  
+
+4. **Score and Summary**  
   <img src="ScreenShots/ResultScreen.png" alt="Result Screen" width="300">
+
+5. **Detailed Summary**
+   <img src="ScreenShots/SubmitScreen2.png" alt="Result Screen" width="300">
 
 ---
 
